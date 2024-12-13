@@ -46,7 +46,7 @@ object-detection/
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone [<repository_url>](https://github.com/roshancharlie/Yolov11-End-to-End-APP.git)
    cd object-detection
    ```
 
@@ -120,17 +120,6 @@ Exposes a REST API for handling image uploads and calling the detection model.
 
 ### `interface.py`
 Provides the UI backend using FastAPI and Jinja2 templates. Allows users to upload images and view results in a web interface.
-
-### `Dockerfile`
-Configures the container environment with the necessary dependencies, Python setup, and exposes the ports for the AI and UI backends.
-
----
-
-## Environment Variables
-
-| Variable    | Description             | Default |
-|-------------|-------------------------|---------|
-| `YOLO_PATH` | Path to the YOLO model  | None    |
 
 ---
 
