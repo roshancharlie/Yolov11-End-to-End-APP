@@ -46,7 +46,7 @@ object-detection/
 
 1. Clone the repository:
    ```bash
-   git clone [<repository_url>](https://github.com/roshancharlie/Yolov11-End-to-End-APP.git)
+   git clone https://github.com/roshancharlie/Yolov11-End-to-End-APP.git
    cd object-detection
    ```
 
